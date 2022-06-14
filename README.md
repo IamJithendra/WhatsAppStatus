@@ -1,7 +1,7 @@
 # Jetpack Compose
 Instagram Stories using Jetpack Compose
 
-![alt text](https://github.com/iamjithendra/whatsAppStatus/blob/main/art/demo.gif?raw=true)
+![alt text](https://github.com/IamJithendra/WhatsAppStatus/blob/master/art/demo.gif)
 
 ## What is Jetpack Compose?
 Jetpack compose is a modern Android UI toolkit introduced by Google. It simplifies the app development process and speeds it up. With Jetpack Compose, you can write less code compared to the current view building approach – which also means less potential bugs. There is one more great thing about it – it uses Kotlin.
