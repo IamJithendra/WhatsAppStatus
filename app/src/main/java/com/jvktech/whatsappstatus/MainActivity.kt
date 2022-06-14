@@ -8,12 +8,7 @@ import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.gestures.detectTapGestures
-import androidx.compose.foundation.layout.BoxWithConstraints
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.LinearProgressIndicator
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -28,8 +23,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
-import com.jvktech.whatsappstatus.R
-import com.jvktech.whatsappstatus.ui.theme.InstagramStoryTheme
+import com.jvktech.whatsappstatus.ui.theme.WhatsAppStatusTheme
 import kotlin.math.max
 import kotlin.math.min
 
@@ -39,7 +33,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             //change the status bar color
             window.statusBarColor = ContextCompat.getColor(this, R.color.black)
-            InstagramStoryTheme {
+            WhatsAppStatusTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     InstagramStory()
