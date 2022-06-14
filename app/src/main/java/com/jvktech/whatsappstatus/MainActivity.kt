@@ -95,7 +95,7 @@ fun InstagramStory() {
                 .fillMaxWidth()
                 .padding(5.dp),
             stepCount = stepCount,
-            stepDuration = 2_000,
+            stepDuration = 3_000,
             unSelectedColor = Color.DarkGray,
             selectedColor = Color.White,
             currentStep = currentStep.value,
