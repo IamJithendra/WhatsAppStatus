@@ -19,7 +19,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.InstagramStory.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.WhatsAppStatus.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.InstagramStory.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.WhatsAppStatus.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

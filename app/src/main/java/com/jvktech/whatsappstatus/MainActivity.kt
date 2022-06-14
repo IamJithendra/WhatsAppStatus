@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
             WhatsAppStatusTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    InstagramStory()
+                    WhatsAppStatus()
                 }
             }
         }
@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun InstagramStory() {
+fun WhatsAppStatus() {
     val images = remember {
         listOf(
             R.drawable.image_1,
@@ -90,7 +90,7 @@ fun InstagramStory() {
             modifier = imageModifier
         )
 
-        InstagramProgressIndicator(
+        WhatsAppProgressIndicator(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(5.dp),
@@ -107,7 +107,7 @@ fun InstagramStory() {
 }
 
 @Composable
-fun InstagramProgressIndicator(
+fun WhatsAppProgressIndicator(
     modifier: Modifier = Modifier,
     stepCount: Int,
     stepDuration: Int,

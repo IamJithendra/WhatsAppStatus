@@ -1,5 +1,5 @@
 # Jetpack Compose
-Instagram Stories using Jetpack Compose
+WhatsApp Status using Jetpack Compose
 
 ![alt text](https://github.com/IamJithendra/WhatsAppStatus/blob/master/art/demo.gif)
 
